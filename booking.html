@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>J&T&G Nails and SPA</h1>
+        <h2>Book an Appointment</h2>
+        <form class="booking-form">
+            <label for="date">Enter a day:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="service">Enter a service:</label>
+            <input type="text" id="service" name="service" placeholder="e.g., Gel Manicure" required>
+
+            <label for="technician">Enter a technician (optional):</label>
+            <input type="text" id="technician" name="technician" placeholder="e.g., Jessica">
+
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <div class="availability">
+            <h3>Available Times</h3>
+            <ul>
+                <li>10:00 AM</li>
+                <li>12:30 PM</li>
+                <li>3:00 PM</li>
+                <li>5:30 PM</li>
+            </ul>
+        </div>
+
+        <a href="home.html" class="nav-button">Home</a>
+        <a href="login.html" class="logout-link">Logout</a>
+    </div>
+</body>
+</html>
